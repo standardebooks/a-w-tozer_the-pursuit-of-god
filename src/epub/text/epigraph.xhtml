@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" epub:prefix="z3998: http://www.daisy.org/z3998/2012/vocab/structure/, se: https://standardebooks.org/vocab/1.0" xml:lang="en-US">
+	<head>
+		<title>Epigraph</title>
+		<link href="../css/core.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/se.css" rel="stylesheet" type="text/css"/>
+		<style>
+			/* All epigraphs */
+			[epub|type~="epigraph"]{
+				font-style: italic;
+				hyphens: none;
+				-epub-hyphens: none;
+			}
+
+			[epub|type~="epigraph"] em,
+			[epub|type~="epigraph"] i{
+				font-style: normal;
+			}
+
+			[epub|type~="epigraph"] cite{
+				font-style: normal;
+				font-variant: small-caps;
+				margin-top: 1em;
+			}
+
+			[epub|type~="epigraph"] cite i{
+				font-style: italic;
+			}
+			/* End all epigraphs */
+
+			/* Full-page epigraphs */
+			section[epub|type~="epigraph"]{
+				text-align: center;
+			}
+
+			section[epub|type~="epigraph"] > *{
+				display: inline-block;
+				margin: auto;
+				margin-top: 3em;
+				max-width: 80%;
+				text-align: initial;
+			}
+
+			@supports(display: flex){
+				section[epub|type~="epigraph"]{
+					align-items: center;
+					box-sizing: border-box;
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					min-height: calc(98vh - 3em);
+					padding-top: 3em;
+				}
+
+				section[epub|type~="epigraph"] > *{
+					margin: 0;
+				}
+
+				section[epub|type~="epigraph"] > * + *{
+					margin-top: 3em;
+				}
+			}
+			/* End full-page epigraphs */>
+		</style>
+	</head>
+	<body epub:type="frontmatter">
+		<section id="epigraph" epub:type="epigraph">
+			<blockquote epub:type="z3998:verse">
+				<p>
+					<span>Then shall we know,</span><br />
+					<span>if we follow on to know the Lord:</span><br />
+					<span>his going forth is prepared as the morning.</span>
+				</p>
+				<cite>—Hosea 6:3</cite>
+			</blockquote>
+		</section>
+	</body>
+</html>
