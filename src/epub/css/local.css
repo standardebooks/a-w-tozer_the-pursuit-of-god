@@ -46,10 +46,64 @@ section > header [epub|type~="epigraph"] + *{
 }
 /* End epigraphs in section headers */
 
-/* Custom CSS to add italics to the last paragraph in each chapter,
- * which in this book is a prayer.
- */
+/* Full-page epigraphs */
+section[epub|type~="epigraph"]{
+    text-align: center;
+}
+
+section[epub|type~="epigraph"] > *{
+    display: inline-block;
+    margin: auto;
+    margin-top: 3em;
+    max-width: 80%;
+    text-align: initial;
+}
+
+@supports(display: flex){
+    section[epub|type~="epigraph"]{
+        align-items: center;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: calc(98vh - 3em);
+        padding-top: 3em;
+    }
+
+    section[epub|type~="epigraph"] > *{
+        margin: 0;
+    }
+
+    section[epub|type~="epigraph"] > * + *{
+        margin-top: 3em;
+    }
+}
+/* End full-page epigraphs */>
+
+/* Prayers at end of chapters */
 section[epub|type~="chapter"] p:last-child{
 	font-style: italic;
 }
+/* End prayers at end of chapters */
+
+/* Inline verse */
+[epub|type~="z3998:verse"] p{
+    text-align: initial;
+    text-indent: 0;
+}
+
+[epub|type~="z3998:verse"] p + p{
+    margin-top: 1em;
+}
+
+[epub|type~="z3998:verse"] p > span{
+    display: block;
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+[epub|type~="z3998:verse"] p > span + br{
+    display: none;
+}
+/* End inline verse */
 
