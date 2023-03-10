@@ -46,3 +46,10 @@ section > header [epub|type~="epigraph"] + *{
 }
 /* End epigraphs in section headers */
 
+/* Custom CSS to add italics to the last paragraph in each chapter,
+ * which in this book is a prayer.
+ */
+section[epub|type~="chapter"] p:last-child{
+	font-style: italic;
+}
+
