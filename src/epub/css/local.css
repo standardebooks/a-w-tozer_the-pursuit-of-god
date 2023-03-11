@@ -82,8 +82,8 @@ section[epub|type~="epigraph"] > *{
 
 section[epub|type~="chapter"] p:last-child{
 	font-style: italic;
+	margin-top: 1em;
 }
-
 /* End prayers at end of chapters */
 
 /* Inline verse */
