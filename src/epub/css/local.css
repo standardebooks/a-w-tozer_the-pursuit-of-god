@@ -107,3 +107,14 @@ section[epub|type~="chapter"] p:last-child{
 }
 /* End inline verse */
 
+/* Letters (preface/introduction) */
+footer {
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+/* End letters */
+
