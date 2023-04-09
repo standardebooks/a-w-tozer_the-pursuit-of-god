@@ -53,6 +53,13 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/A._W._Tozer</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80067404</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="se:role" refines="#author" scheme="marc:relators">wpr</meta>
+		<dc:contributor id="introducer">Samuel M. Zwemer</dc:contributor>
+		<meta property="file-as" refines="#introducer">Zwemer, Samuel M.</meta>
+		<meta property="se:url.authority.nacoaf" refines="#introducer">http://id.loc.gov/authorities/names/n88602727</meta>
+		<meta property="se:name.person.full-name" refines="#introducer">Samuel Marinus Zwemer</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#introducer">https://en.wikipedia.org/wiki/Samuel_Marinus_Zwemer</meta>
+		<meta property="role" refines="#introducer" scheme="marc:relators">win</meta>
 		<dc:contributor id="artist">Andrzej Bronisław Grabowski</dc:contributor>
 		<meta property="file-as" refines="#artist">Grabowski, Andrzej Bronisław</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n88009982</meta>
