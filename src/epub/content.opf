@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/a-w-tozer/the-pursuit-of-god</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2023-04-11T18:10:44Z</dc:date>
+		<meta property="dcterms:modified">2023-04-11T18:10:44Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -35,17 +35,17 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh85126779</meta>
 		<meta property="se:subject">Spirituality</meta>
-		<dc:description id="description">A. W. Tozer’s classic work on Christian living contains practical advice for those who wish to know God, not simply know about Him.</dc:description>
+		<dc:description id="description">A. W. Tozer’s classic work on Christian living, containing practical advice for those who wish to know God, not simply know about Him.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Written in a single night on a train and first published in 1948, &lt;a href="https://standardebooks.org/ebooks/a-w-tozer"&gt;&lt;abbr&gt;A. W.&lt;/abbr&gt; Tozer’s&lt;/a&gt; &lt;i&gt;The Pursuit of God&lt;/i&gt; is a classic Christian devotional book that explores the nature of the believer’s relationship with God. In this book, Tozer emphasizes the importance of pursuing a deep and intimate relationship with God, rather than simply seeking religious knowledge or following a set of rules. Tozer argues that the pursuit of God requires a complete surrender of oneself to Him, as well as a willingness to embrace the mysteries and paradoxes of faith. He also stresses the importance of cultivating a life of prayer and meditation, and of seeking to experience the presence of God in every aspect of one’s life.&lt;/p&gt;
+			&lt;p&gt;Written in a single night on a train and first published in 1948, &lt;a href="https://standardebooks.org/ebooks/a-w-tozer"&gt;&lt;abbr&gt;A. W.&lt;/abbr&gt; Tozer’s&lt;/a&gt; &lt;i&gt;The Pursuit of God&lt;/i&gt; is a classic Christian devotional book that explores the nature of the believer’s relationship with God. In it, Tozer emphasizes the importance of pursuing a deep and intimate relationship with God, rather than simply seeking religious knowledge or following a set of rules. Tozer argues that the pursuit of God requires a complete surrender of oneself to Him, as well as a willingness to embrace the mysteries and paradoxes of faith. He also stresses the importance of cultivating a life of prayer and meditation, and of seeking to experience the presence of God in every aspect of one’s life.&lt;/p&gt;
 			&lt;p&gt;Throughout &lt;i&gt;The Pursuit of God,&lt;/i&gt; Tozer offers practical advice for those who desire to grow in their relationship with God. He encourages readers to seek God with a whole heart, to trust in His goodness and love, and to allow the Holy Spirit to transform their hearts and minds. Ultimately, Tozer’s message is one of hope and encouragement, reminding believers that the pursuit of God is not a burdensome duty, but a joyful and fulfilling journey that leads to abundant life and spiritual growth.&lt;/p&gt;
 			&lt;p&gt;In 2000, &lt;i&gt;The Pursuit of God&lt;/i&gt; was named to &lt;i&gt;Christianity Today’s&lt;/i&gt; list of 100 “Books of the Century.”&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/25141</dc:source>
 		<dc:source>https://archive.org/details/pursuitofgod00toze</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">29226</meta>
+		<meta property="se:reading-ease.flesch">68.6</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/a-w-tozer_the-pursuit-of-god</meta>
 		<dc:creator id="author">A. W. Tozer</dc:creator>
 		<meta property="file-as" refines="#author">Tozer, A. W.</meta>
@@ -84,6 +84,10 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">ann</meta>
+		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
+		<meta property="se:url.homepage" refines="#producer-2">http://www.robinwhittleton.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
