@@ -44,7 +44,7 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/25141</dc:source>
 		<dc:source>https://archive.org/details/pursuitofgod00toze</dc:source>
-		<meta property="se:word-count">29226</meta>
+		<meta property="se:word-count">29228</meta>
 		<meta property="se:reading-ease.flesch">68.6</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/a-w-tozer_the-pursuit-of-god</meta>
 		<dc:creator id="author">A. W. Tozer</dc:creator>
